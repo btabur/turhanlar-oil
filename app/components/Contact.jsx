@@ -4,7 +4,8 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <section className='relative bg-[url("/bg-contact.jpg")] pt-20 pl-20 flex flex-col items-start gap-10 bg-cover bg-center bg-no-repeat h-[90vh] mb-20'>
+    <section className='relative bg-[url("/bg-contact.jpg")] pt-20 pl-20 flex flex-col
+     items-start gap-10 bg-cover bg-center bg-no-repeat h-[90vh] border-b'>
       <div className='absolute inset-0 bg-black/50 z-0'></div>
       
       <div className='relative z-10 flex flex-col lg:gap-10 gap-5'>
