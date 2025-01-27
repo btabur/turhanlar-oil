@@ -72,7 +72,7 @@ const Navigation = () => {
               return (
                 <div key={index} className="relative group">
                   <p className={`h-full border-[#fdc133] cursor-pointer border-2 p-2 hover:border-2 text-xl
-                    ${pathname === item.href ? "border-white" : ""}
+                    ${item.sub.some(subItem => pathname === subItem.href) ? "border-white" : ""}
                     hover:border-white transition-all font-semibold`}>
                     {item.text}
                   </p>

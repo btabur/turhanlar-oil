@@ -31,7 +31,7 @@ const MiddleFooter = () => {
         {/* right */}
         <div className='flex flex-col gap-4 items-start'>
             <h2 className='text-white font-semibold text-2xl'>Turhanlar İletişim</h2>
-            <p className='text-gray-400'>Adres: Kaleönü. Bingöl/Merkez</p>
+            <p className='text-gray-400'>Adres: Saray, Bingöl - Elazığ Yolu, 12000 Bingöl Merkez/Bingöl</p>
             <p className='text-gray-400' >Telefon: 0555 55 55</p>
             <p className='text-gray-400' >Fax: 0426 654 44 22</p>
         </div>
