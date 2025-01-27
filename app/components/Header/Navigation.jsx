@@ -71,7 +71,7 @@ const Navigation = () => {
             if (item.sub) {
               return (
                 <div key={index} className="relative group">
-                  <p className={`h-full border-[#fdc133] cursor-pointer border-2 p-2 hover:border-2 text-xl
+                  <p className={`h-full border-primary cursor-pointer border-2 p-2 hover:border-2 text-xl
                     ${item.sub.some(subItem => pathname === subItem.href) ? "border-white" : ""}
                     hover:border-white transition-all font-semibold`}>
                     {item.text}
@@ -82,7 +82,7 @@ const Navigation = () => {
                         key={subIndex}
                         href={subItem.href}
                         className="px-4 py-2 border-b border-t 
-                        hover:bg-primary_bold text-black font-semibold hover:text-[#fdc133] transition-all"
+                        hover:bg-primary_bold text-black font-semibold hover:text-primary transition-all"
                       >
                         {subItem.text}
                       </Link>
@@ -94,7 +94,7 @@ const Navigation = () => {
             return (
               <Link
                 key={index}
-                className={`h-full border-[#fdc133] border-2 p-2 hover:border-2 
+                className={`h-full border-primary border-2 p-2 hover:border-2 
                   ${pathname === item.href ? "border-white" : ""}
                   hover:border-white transition-all font-semibold`}
                 href={item.href}

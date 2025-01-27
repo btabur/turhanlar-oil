@@ -7,7 +7,7 @@ const TurhanlarPage = () => {
   return (
     <main className=' mt-20  '>
         {/* top */}
-        <article className='flex flex-col items-center justify-center py-10 gap-4 border-b-[7px] border-double border-[#fdc133]'>
+        <article className='flex flex-col items-center justify-center py-10 mx-20 gap-4 border-b-[7px] border-double border-[#fdc133]'>
             <h1 className='text-3xl font-semibold '>Turhanlar Petrol</h1>
             <div className='flex items-center gap-2 text-gray-500'>
                 <Link className='hover:underline' href={"/"}>Ana Sayfa</Link> 
@@ -16,28 +16,28 @@ const TurhanlarPage = () => {
 
         </article>
         {/* middle */}
-        <article className='flex items-start justify-start px-20'>
-            <div className='flex flex-col items-start gap-4 h-[80vh] w-1/2  mt-5'>
+        <article className='flex flex-col lg:flex-row items-start justify-start px-20 gap-10'>
+            <div className='flex flex-col items-start gap-4 h-[80vh] lg:w-1/2 w-full  mt-5'>
                 <h1 className='text-2xl font-semibold'>Turhanlar Petrol</h1>
-                <span className='w-24 h-[2px] bg-[#fdc133]'></span>
+                <span className='w-24 h-[2px] bg-primary'></span>
                 <SliderAbout/>
 
             </div>
 
-            <div className='flex flex-col items-start gap-4 mt-5'>
+            <div className='flex flex-col items-start gap-4 my-5'>
 
                 <h1 className='text-2xl font-semibold'>Turhanlar Petrol</h1>
-                <span className='w-24 h-[2px] bg-[#fdc133]'></span>
+                <span className='w-24 h-[2px] bg-primary'></span>
                 <div className='flex items-center gap-2 mt-5'>
-                    <p className='p-1 w-8 h-8 rounded-full bg-[#fdc133] flex items-center justify-center text-white'>1</p>
+                    <p className='p-1 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white'>1</p>
                     <p className='text-xl text-gray-500'>Shell Petrol İstasyonu</p>
                 </div>
                 <div className='flex items-center gap-2'>
-                    <p className='p-1 w-8 h-8 rounded-full bg-[#fdc133] flex items-center justify-center text-white'>2</p>
+                    <p className='p-1 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white'>2</p>
                     <p className='text-xl text-gray-500'>Oto Yıkama</p>
                 </div>
                 <div className='flex items-center gap-2'>
-                    <p className='p-1 w-8 h-8 rounded-full bg-[#fdc133] flex items-center justify-center text-white'>3</p>
+                    <p className='p-1 w-8 h-8 rounded-full bg-primary flex items-center justify-center text-white'>3</p>
                     <p className='text-xl text-gray-500'>Market</p>
                 </div>
 
@@ -52,7 +52,7 @@ const TurhanlarPage = () => {
             <div className='relative z-10 flex flex-col lg:gap-10 gap-5'>
                 <h2 className='text-3xl text-white font-semibold'>Bize Ulaşın!</h2>
                 <p className='text-xl text-white'>Turhanlar Petrol hizmetleri hakkında bize ulaşabilirsiniz</p>
-                <Link href={"/iletisim"} className='py-2 w-32 text-center font-semibold bg-[#fdc133] text-white'>İletişim</Link>
+                <Link href={"/iletisim"} className='py-2 w-32 text-center font-semibold bg-primary text-white'>İletişim</Link>
             </div>
            
         </article>
