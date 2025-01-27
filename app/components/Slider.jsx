@@ -26,7 +26,7 @@ const Slider = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-[500px] overflow-hidden">
+    <section className="relative w-full h-[500px] overflow-hidden mt-[75px]">
       {/* Loading bar */}
       <div className="absolute top-0 left-0 w-full h-1 bg-white/20">
         <motion.div
