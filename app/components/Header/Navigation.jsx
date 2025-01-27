@@ -12,7 +12,7 @@ const Navigation = () => {
 
   const pathname = usePathname();
   return (
-    <article className="bg-[#fdc133] text-white">
+    <article className="bg-[#fdc133] text-white sticky top-14 left-0 right-0 z-40">
       <div className="container px-10 md:px-20 py-2 flex items-center md:justify-around justify-between gap-20">
         {/* Logo */}
         <Link

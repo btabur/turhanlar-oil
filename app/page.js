@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Slider from "./components/Slider";
+import Services from "./components/Services";
 
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
    <main>
   
     <Slider/>
+    <Services/>
    </main>
   );
 }
