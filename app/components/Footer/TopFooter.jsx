@@ -12,11 +12,11 @@ const TopFooter = () => {
             <p className='text-white'>Sosyal Medyada Bizi Takip Edin...</p>
 
             <div className='flex items-center gap-2 '>
-            <div className='flex items-center justify-center p-3 bg-[#363435] cursor-pointer '>
-                   <FaFacebookF className='text-3xl text-white' />
+            <div className='flex items-center justify-center p-3 bg-[#363435] cursor-pointer group '>
+                   <FaFacebookF className='text-3xl text-white group-hover:text-primary' />
                 </div>
-                <div className='flex items-center justify-center p-3 bg-[#363435] cursor-pointer '>
-                   <FaInstagram className='text-3xl text-white' />
+                <div className='flex items-center justify-center p-3 bg-[#363435] cursor-pointer group '>
+                   <FaInstagram className='text-3xl text-white group-hover:text-primary' />
                 </div>
 
             </div>
