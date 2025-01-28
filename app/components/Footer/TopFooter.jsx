@@ -9,7 +9,7 @@ const TopFooter = () => {
             <span className='relative z-10 top-0 left-0 -translate-x-[50] -translate-y-[50] mt-3 px-8 text-white text-2xl font-semibold '>Turhanlar</span>
         </div>
         <div className='flex items-center gap-5 mt-5 '>
-            <p>Sosyal Medyada Bizi Takip Edin...</p>
+            <p className='text-white'>Sosyal Medyada Bizi Takip Edin...</p>
 
             <div className='flex items-center gap-2 '>
             <div className='flex items-center justify-center p-3 bg-[#363435] cursor-pointer '>

@@ -3,7 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { usePathname } from 'next/navigation';
 import { IoIosMenu } from "react-icons/io";
-import { IoHome } from "react-icons/io5";
+import Image from "next/image";
 
 const Navigation = () => {
   const [isSubMenuOpen, setIsSubMenuOpen] = useState(false);
@@ -36,11 +36,7 @@ const Navigation = () => {
             {
             text:"Turhanlar Petrol",
             href:"/turhanlar-petrol"
-            },
-            {
-              text:"KVKK",
-              href:"/kvkk"
-            },
+            }
         ]
     },
     {
@@ -49,7 +45,7 @@ const Navigation = () => {
     },
     {
       text:"İletişim",
-      href:"/iletişim"
+      href:"/iletisim"
     }
 ]
 
@@ -59,10 +55,20 @@ const Navigation = () => {
         {/* Logo */}
         <Link
           href={"/"}
-          className="flex flex-col items-center text-2xl font-semibold py-1"
-        >
-          <p className="text-gray-600">Turhanlar</p>
-          <p className="-mt-3">Petrol</p>
+          className="flex items-center gap-4 text-2xl font-semibold py-1"
+        > 
+          <Image
+          alt="logo"
+          src={'/logo-shell.png'}
+          width={800}
+          height={800}
+          className="w-12 h-12"
+          />
+          <div className="flex flex-col items-start">
+              <p className="text-gray-600">Turhanlar</p>
+              <p className="-mt-3">Petrol</p>
+          </div>
+         
         </Link>
 
         {/* Desktop Navigation */}
