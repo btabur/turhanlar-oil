@@ -1,3 +1,10 @@
-yapılanlar 25.01.25
-- header eklendi
-- Slider eklendi
+
+
+
+# Proje Tanıtımı
+<img src="public/screen.gif" width="600">
+
+## Kullanılan Teknolojiler
+- next.js
+- tailwindcss
+
