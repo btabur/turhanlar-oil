@@ -75,7 +75,7 @@ const Navigation = () => {
             src={"/turhanlar.png"}
             width={800}
             height={800}
-            className="w-80 h-20"
+            className="w-48 h-16 object-cover"
           />
           {/* <div className="flex flex-col items-start">
             <p className="text-gray-600">Turhanlar</p>
